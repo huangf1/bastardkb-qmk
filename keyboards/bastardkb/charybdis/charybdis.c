@@ -51,6 +51,8 @@
 #        define CHARYBDIS_DRAGSCROLL_BUFFER_SIZE 6
 #    endif // !CHARYBDIS_DRAGSCROLL_BUFFER_SIZE
 
+#define CHARYBDIS_DRAGSCROLL_REVERSE_Y
+
 typedef union {
     uint8_t raw;
     struct {
